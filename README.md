@@ -60,6 +60,7 @@ O(n^2)
 $n_0 = 100$
 
 It is at this value where the fitted quadratic is inbetween the upper and lower bound, then for all values greater than $n_0$, the fitted quadratic remains inbetween the upper and lower bound.
+This is also where the plotted points began to follow the quadratic curve.
 
 
 ```

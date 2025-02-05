@@ -22,11 +22,14 @@
 
 ```math
 T(n) = c_1 + c_2*n + c_3*\sum_{i=1}^{n-1}\sum_{j=1}^n 1 + c_4*\sum_{i=1}^{n-1}\sum_{j=1}^{n-1} 1
-\\
+```
+```math
 T(n) = c_1 + c_2*n + c_3*n(n-1) + c_4*(n-1)^2
-\\
+```
+```math
 T(n) \approx 2n^2 + n \approx n^2
-\\
+```
+```math
 T(n) \in \Theta(n^2)
 ```
 
@@ -94,11 +97,14 @@ Fitted Curve = $3.361\times10^{-8} x^2 - 9.276 \times 10^{-7} x + 2.686 \times 1
 
 ```math
 T(n) = c_1 + c_2 + c_3*n + c_4*\sum_{i=1}^{n-1}\sum_{j=1}^n 1 + c_5*\sum_{i=1}^{n-1}\sum_{j=1}^{n-1} 1 + c_6*\sum_{i=1}^{n-1}\sum_{j=1}^{n-1} 1
-\\
+```
+```math
 T(n) = c_1 + c_2 + c_3*n + c_4*n(n-1) + c_5*(n-1)^2 + c_6*(n-1)^2
-\\
+```
+```math
 T(n) \approx 3n^2 + n \approx n^2
-\\
+```
+```math
 T(n) \in \Theta(n^2)
 ```
 

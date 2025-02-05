@@ -108,7 +108,7 @@ T(n) \approx 3n^2 + n \approx n^2
 T(n) \in \Theta(n^2)
 ```
 
-No, although the runtime does take longer, the time complexity of the algorithm remains the same.
+No, although the execution time does take longer, the time complexity of the algorithm remains the same.
 
 ### 7. Merge sort implementation under implementation/merge_sort
 #### To compile:
